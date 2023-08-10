@@ -220,6 +220,10 @@ legend{
   
 }
 
+.color:hover{
+  cursor: wait;
+}
+
 
 
 .div{
