@@ -19,16 +19,18 @@
 }
 
 .main{
-  background-color: rgb(56, 55, 55);
+  background: url('./assets/background2.jpg')fixed center;
   font-family: monospace;
+  background-size: cover;
   height: 1000px;
 
 }
 
 .main-light{
-  background-color: rgb(247, 246, 246);
+  background: url('./assets/bgclaro.jpg')fixed center;
   font-family: monospace;
-  height: 100vh;
+  background-size: cover;
+  height: 1000px;
 }
 
 body{
@@ -143,10 +145,10 @@ body{
   background: #791292;
   color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #791292,
-              0 0 25px #791292,
-              0 0 50px #791292,
-              0 0 100px #791292;
+  box-shadow: 0 0 10px #791292,
+              0 0 40px #791292,
+              0 0 80px #791292,
+              0 0 120px #791292;
   cursor: pointer;
 }
 
@@ -154,10 +156,10 @@ body{
   background: #791292;
   color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #791292,
-              0 0 25px #791292,
-              0 0 50px #791292,
-              0 0 100px #791292;
+  box-shadow: 0 0 10px #791292,
+              0 0 40px #791292,
+              0 0 80px #791292,
+              0 0 120px #791292;
   cursor: pointer;
 }
 
@@ -264,8 +266,8 @@ margin-right: 5px;
 
 @media (max-width: 700px) {
   .login-box {
-    width: 290px;
-    padding: 40px;
+    width: 260px;
+    padding: 20px;
     margin: 0 auto;
     background: rgba(27, 25, 25, 0.987);
   
@@ -275,8 +277,8 @@ margin-right: 5px;
   }
   
   .login-box-light {
-    width: 290px;
-    padding: 40px;
+    width: 260px;
+    padding: 20px;
     margin: 0 auto;
     background: rgba(221, 221, 221, 0.987);
   
