@@ -21,7 +21,8 @@
 .main{
   background-color: rgb(56, 55, 55);
   font-family: monospace;
-  height: 100vh;
+  height: 1000px;
+
 }
 
 .main-light{
@@ -260,3 +261,38 @@ margin-right: 5px;
   text-align: center;
 }
 
+
+@media (max-width: 700px) {
+  .login-box {
+    width: 290px;
+    padding: 40px;
+    margin: 0 auto;
+    background: rgba(27, 25, 25, 0.987);
+  
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    
+  }
+  
+  .login-box-light {
+    width: 290px;
+    padding: 40px;
+    margin: 0 auto;
+    background: rgba(221, 221, 221, 0.987);
+  
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+
+  .color{
+    /* background-color: #3e3c3f; */
+    border: none;
+    margin-right: 10px;
+    background-color: rgb(150, 147, 147);
+    height: 20px;
+    width: 50px;
+    padding: 0;
+    
+  }
+
+}
