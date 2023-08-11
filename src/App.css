@@ -27,9 +27,10 @@
 }
 
 .main-light{
-  background: url('./assets/bgclaro.jpg')fixed center;
+  background: url('./assets/bgclaro.png') center fixed;
   font-family: monospace;
   background-size: cover;
+  
   height: 1000px;
 }
 
@@ -213,7 +214,7 @@ legend{
   /* background-color: #3e3c3f; */
   border: none;
   margin-right: 20px;
-  background-color: rgb(150, 147, 147);
+  background-color:transparent;
   height: 22px;
   width: 60px;
   padding: 0;
